@@ -3,9 +3,9 @@ mask = 1000
 
 a = int(input())
 
-if a <= book:
+if a >= book:
     print("book")
-elif a <= mask:
+elif mask <= a <= book:
     print("mask")
 else : 
     print("no")
