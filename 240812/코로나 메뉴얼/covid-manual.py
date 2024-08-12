@@ -20,3 +20,5 @@ elif (ba =="Y" and bc>=37):
         print("E")
     else:
         print("N")
+else:
+    print("N")
