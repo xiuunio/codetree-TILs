@@ -12,5 +12,10 @@ if aa>=19 or ba>=19:
         print("1")
     elif ass == "M":
         print("1")
+elif bss == "M" or ass == "M":
+    if aa >=19 and ba <19:
+        print("0")
+    elif aa<19 and ba>=19:
+        print("0")
 else:
     print("0")
