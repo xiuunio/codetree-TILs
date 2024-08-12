@@ -10,10 +10,9 @@ bm, be = int(brr[0]),int(brr[1])
 
 if am > bm:
     print("A")
-else:
+elif bm>am:
     print("B")
-
-if am==bm :
+elif am==bm:
     if ae>be:
         print("A")
     else: 
