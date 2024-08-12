@@ -1,0 +1,16 @@
+inpa = input()
+inpb = input()
+
+arr = inpa.split()
+brr = inpb.split()
+
+aa,ass = int(arr[0]),arr[1]
+ba,bss = int(brr[0]), brr[1]
+
+if aa>=19 or ba>=19:
+    if bss =="M":
+        print("1")
+    elif ass == "M":
+        print("1")
+else:
+    print("0")
