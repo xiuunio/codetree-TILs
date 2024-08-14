@@ -5,6 +5,6 @@ a,b = int(ss[0]),int(ss[1])
 
 prod=1
 for i in range(1,b+1):
-    if b%a==0:
-        prod*=a
+    if i%a==0:
+        prod*=i
 print(prod)
