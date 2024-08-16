@@ -9,6 +9,6 @@ for i in range(n):
 for i in range(n-1):
     for j in range(n-i-2):
         print(' ',end=' ')
-    for j in range((n//2)+i*2+1):
+    for j in range(+i*2+3):
         print('*',end=' ')
     print()
