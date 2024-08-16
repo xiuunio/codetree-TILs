@@ -8,4 +8,4 @@ for i in range(2,n):
 if cnt>=1:
     print("C")
 else:
-print("N")
+    print("N")
