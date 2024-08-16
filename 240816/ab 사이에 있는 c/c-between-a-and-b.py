@@ -9,6 +9,6 @@ for i in range(a,b+1):
     else:
         continue
 if cnt>=1:
-    print("Yes")
+    print("YES")
 else:
-    print("No")
+    print("NO")
