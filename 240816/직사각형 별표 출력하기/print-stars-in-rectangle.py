@@ -1,5 +1,6 @@
-n = int(input())
-m = int(input())
+inp = input()
+arr = inp.split()
+n,m = int(arr[0]),int(arr[1])
 
 for _ in range(n):
     for _ in range(m):
