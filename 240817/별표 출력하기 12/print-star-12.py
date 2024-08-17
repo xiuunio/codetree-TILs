@@ -2,10 +2,16 @@ n=int(input())
 
 
 for i in range(n):
-    print('*',end=' ')
-print()
-
-for i in range(2,n):
-    for j in range(n//i):
-        print('*',end=' ')
+    for j in range(n):
+        if j %2 ==0:
+            if i == 0:
+                print('*',end='')
+            else:
+                print(' ',end='')
+            
+        else:
+            if i<=j:
+                print('*',end='')
+            else:
+                print(' ',end='')
     print()
